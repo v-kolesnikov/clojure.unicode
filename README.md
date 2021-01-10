@@ -42,7 +42,7 @@ Clojure library that binds rich Unicode symbols to traditional clojure.core macr
 (⊇ #{1 2} #{1})   ;; ⇒ true
 (⊈ #{1 2} #{1 3}) ;; ⇒ true
 (⊉ #{1 2} #{1 3}) ;; ⇒ true
-(∈ ∅ 1)           ;; ⇒ false
+(∋ ∅ 1)           ;; ⇒ false
 (∖ #{1 2 3} #{3}) ;; ⇒ #{ 1 2 }
 
 (↠ [1 2 3] (map inc)) ;; ⇒ (2 3 4)
